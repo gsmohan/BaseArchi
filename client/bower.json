@@ -1,0 +1,6 @@
+{
+    "name": "ui-architecture",
+    "dependencies": {
+        "bootstrap": "latest"
+    }
+}

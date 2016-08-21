@@ -1,0 +1,38 @@
+{
+  "name": "ui-architecture",
+  "version": "1.0.0",
+  "description": "Base architecture for UI Development/Production",
+  "author": "mohan",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "1.8.2",
+    "browserify": "3.44.2",
+    "del": "1.1.1",
+    "gulp": "3.8.10",
+    "gulp-cdnizer": "^1.1.7",
+    "gulp-concat": "2.4.3",
+    "gulp-jshint": "1.9.0",
+    "gulp-run": "1.6.5",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "1.0.2",
+    "reactify": "0.17.1",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "1.0.0"
+  },
+  "paths": {
+    "sass": [
+      "development/styles/**/*.scss",
+      "development/scripts/**/*.scss"
+    ],
+    "js": "development/scripts/**/*.js",
+    "jsx": "development/scripts/**/*.jsx",
+    "app": "./development/scripts/app.js",
+    "html": "./development/*.html",
+    "styles": "./development/styles"
+  },
+  "dest": {
+    "app": "scripts/app.js",
+    "styles": "production/styles/",
+    "distribution": "production"
+  }
+}
